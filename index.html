@@ -1,0 +1,208 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Food App</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: beige;
+}
+.Main{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 2px 1px 17px 6px lightslategray ; */
+    box-shadow: 0px 5px 20px 0px;
+}
+.Main h1{
+    color: darksalmon;
+    word-spacing: 20px;
+    text-shadow: 5px 2px lightblue;
+    font-size: 50px;
+}
+.icon img{
+    margin-top: 10px;
+
+}
+.Nav ul{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.Nav ul li:hover{
+    background-color: rgb(6, 136, 93);
+    transition: 0.3s linear;
+    color: white;
+}
+.Nav2 ul li {
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    margin-top: 50px;
+    text-shadow:1px 1px lightcoral;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.Nav2 ul li:hover{
+    background-color: aquamarine;
+    transition: 0.5s ease-in-out;
+
+}
+.Nav2 ul a:hover{
+    color:orange;
+}
+.Nav2 ul a{
+    text-decoration: none;
+}
+
+.picture-center{
+    text-align: center;
+    margin-top: 100px;
+}
+.food-image{
+    box-shadow: 2px 2px 25px 4px rgb(0, 0, 0);
+    border: 2px solid black;
+    margin-top: 50px;
+    height: 400px;
+    width: 600px;
+}
+.red{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: lightgrey;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    
+}
+.main3{
+    background-color: black;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+.main3 H1{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+}
+.main3 p{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color:whitesmoke;
+
+}
+@media screen  and (max-width:1500px) {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .Main{
+        width: 400px;
+    }
+    .icon img{
+       width: 30px;
+
+    }
+     .Main h1{
+        font-size: 30px;
+    }
+    .food-image{
+        width: 100%;
+    }
+    .Nav ul{
+        font-size: 20px;
+    }
+
+    
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="Main">
+      <div class="icon"><img src="Images/foodicon.jpg" alt="image" srcset=""></div>
+        <h1>FAVOURITE FOOD</h1>
+        <div class="icon"><img src="Images/foodicon.jpg" alt="image"></div>
+    </div>
+        
+
+     <div class="Nav">
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+   <div class="Nav2">
+      <ul>
+        <li><a href="#icecream">Ice-Cream</a></li>
+        <li><a href="#colddrink">Cold Drink</a></li>
+        <li><a href="#frenchfries">French Fries</a></li>
+        <li><a href="#burger">Burger</a></li>
+        <li><a href="#pasta">Pasta</a></li>
+    </ul>
+  </div>
+  <div class="picture-center">
+        <img id="icecream" class="food-image" src="Images/ice cream.jpg" alt="ice cream">
+        <p class="red" >Ice-Cream</p>
+    </div>
+     <div class="picture-center">
+      <img id="colddrink" class="food-image" src="Images/cold drink.jpg" alt="cold drink">
+      <p class="red" >Cold drink</p>
+    </div>
+    <div class="picture-center">
+      <img id="frenchfries" class="food-image" src="Images/french fries.jpg" alt="french fries">
+      <p class="red" >French Fries</p>
+    </div>
+    <div class="picture-center">
+      <img id="burger" class="food-image" src="Images/burger.jpg" alt="burger">
+      <p class="red" >Burger</p>
+    </div>
+    <div class="picture-center">
+      <img id="pasta" class="food-image" src="Images/pasta .jpg" alt="pasta">
+      <p class="red" >Pasta</p>
+    </div>
+   
+    <div class="main3">
+        <H1>ADDRESS</H1>
+        <p> Street:  6, Asmita Ascon Acres, Naya Nagar, Mira Road</p>
+        <p> City:   Mumbai</p>
+        <p> State:    Maharashtra</p>
+        <p> Country calling code  +91</p>
+        <p> Phone number  02228116573</p>
+        <p> Zip code  401107</p>
+        <p> Country  India</p>
+    </div> 
+      
+</body>
+</html>  
+
+
+
+
+ 
+
